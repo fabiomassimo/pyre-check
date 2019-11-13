@@ -13,6 +13,8 @@ _build
 /scripts/dist
 version.ml
 
+website/.docusaurus
+website/.cache-loader
 website/translated_docs
 website/build/
 website/yarn.lock
@@ -20,7 +22,15 @@ website/yarn-error.log
 website/node_modules
 website/i18n/*
 !website/i18n/en.json
+website/.env.local
+website/.env.development.local
+website/.env.test.local
+website/.env.production.local
+website/npm-debug.log*
+website/yarn-debug.log*
+website/yarn-error.log*
 
 hack_parallel/hack_parallel/utils/get_build_id.c
 /.buckd
 /buck-out
+

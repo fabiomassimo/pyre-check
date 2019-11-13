@@ -1,3 +1,8 @@
+:root {
+  --ifm-color-primary: #2d2020;
+  --ifm-color-secondary: #aa9493;
+}
+
 .wrapper {
   max-width: 1200px;
   min-height: 100%;

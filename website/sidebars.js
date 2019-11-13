@@ -1,5 +1,5 @@
-{
-  "overview": {
+module.exports = {
+ docs: {
     "Contents": [
       "overview",
       "installation",
@@ -12,9 +12,9 @@
       "watchman-integration",
       "querying-pyre",
       {
-        "type": "subcategory",
+        "type": "category",
         "label": "Pyre Static Analysis",
-        "ids": [
+        "items": [
           "pyre-static-analysis-basics",
           "pyre-static-analysis-running",
           "pyre-static-analysis-features",
@@ -24,5 +24,5 @@
         ]
       }
     ]
-  }
-}
+  },
+};
